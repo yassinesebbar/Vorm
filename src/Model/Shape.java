@@ -1,10 +1,11 @@
 package Model;
 
 public class Shape {
-    protected Double space;
+
+    protected double space;
     protected String shapeName;
 
-    public Double getSpace(){
+    public double getSpace(){
         return this.space;
     }
 
