@@ -1,4 +1,4 @@
 package Model;
 
-public class Cylinder {
+public class Cylinder extends Shape {
 }
