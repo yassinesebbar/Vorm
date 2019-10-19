@@ -39,11 +39,11 @@ public class Controller {
                 break;
             case "sphere":
                 shape = Shape.sphere;
-                volume = 4/3*Math.PI*Math.pow(radius,3);
+                volume = Math.PI*Math.pow(radius,3)*4/3;
                 break;
             case "cone":
                 shape = Shape.cone;
-                volume = 1/3*Math.PI*Math.pow(radius,2)*height;
+                volume = Math.PI*Math.pow(radius,2)*height/3;
                 break;
         }
 

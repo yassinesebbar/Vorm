@@ -5,5 +5,5 @@ public enum Shape {
     cuboid,
     cylinder,
     sphere,
-    cone
+    cone,
 }

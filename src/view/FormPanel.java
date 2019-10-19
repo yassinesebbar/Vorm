@@ -1,13 +1,16 @@
 package view;
 
+import com.sun.codemodel.*;
 import controller.FormListener;
 
 import javax.swing.*;
+import javax.swing.JLabel;
 import javax.swing.border.Border;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
+import java.util.Iterator;
 
 public class FormPanel extends JPanel {
 
@@ -59,14 +62,34 @@ public class FormPanel extends JPanel {
         shapeCombo.setSelectedIndex(0);
 
         okBtn.addActionListener(new ActionListener() {
-            @Override
+            double length = 0;
+            double width = 0;
+            double height = 0;
+            double radius = 0;
+
             public void actionPerformed(ActionEvent e) {
                 String name = nameField.getText();
                 String shape = (String) shapeCombo.getSelectedItem();
-                double length = Double.parseDouble(lengthField.getText());
-                double width = Double.parseDouble(widthField.getText());
-                double height = Double.parseDouble(heightField.getText());
-                double radius = Double.parseDouble(radiusField.getText());
+                try {
+                    length = Double.parseDouble(lengthField.getText());
+                } catch (NumberFormatException nfe) {
+                    length = 0.0;
+                }
+                try {
+                    width = Double.parseDouble(widthField.getText());
+                } catch (NumberFormatException nfe) {
+                    width = 0.0;
+                }
+                try {
+                    height = Double.parseDouble(heightField.getText());
+                } catch (NumberFormatException nfe) {
+                    height = 0.0;
+                }
+                try {
+                    radius = Double.parseDouble(radiusField.getText());
+                } catch (NumberFormatException nfe) {
+                    radius = 0.0;
+                }
 
                 FormEvent ev = new FormEvent(this, name, shape, length, width, height, radius);
 
@@ -83,6 +106,13 @@ public class FormPanel extends JPanel {
         setLayout(new GridBagLayout());
 
         GridBagConstraints gc = new GridBagConstraints();
+
+        if (shapeCombo.getSelectedItem().equals("cube")) {
+        } else if (shapeCombo.getSelectedItem().equals("cuboid")) {
+        } else if (shapeCombo.getSelectedItem().equals("cylinder")) {
+        } else if (shapeCombo.getSelectedItem().equals("sphere")) {
+        } else if (shapeCombo.getSelectedItem().equals("cone")) {
+        }
 
         ///// Name row /////
         gc.weightx = 1;
@@ -101,7 +131,6 @@ public class FormPanel extends JPanel {
         gc.insets = new Insets(0, 0, 0, 0);
         gc.anchor = GridBagConstraints.LINE_START;
         add(nameField, gc);
-
         ///// Figure row /////
         gc.gridy++;
 
@@ -136,6 +165,7 @@ public class FormPanel extends JPanel {
 
 
         ///// Width row /////
+
         gc.gridy++;
 
         gc.weightx = 1;
@@ -152,6 +182,7 @@ public class FormPanel extends JPanel {
         add(widthField, gc);
 
         ///// Height row /////
+
         gc.gridy++;
 
         gc.weightx = 1;
@@ -168,6 +199,7 @@ public class FormPanel extends JPanel {
         add(heightField, gc);
 
         ///// Radius row /////
+
         gc.gridy++;
 
         gc.weightx = 1;
@@ -200,3 +232,4 @@ public class FormPanel extends JPanel {
         this.formListener = listener;
     }
 }
+
