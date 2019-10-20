@@ -1,16 +1,13 @@
 package view;
 
-import com.sun.codemodel.*;
 import controller.FormListener;
 
 import javax.swing.*;
-import javax.swing.JLabel;
 import javax.swing.border.Border;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
-import java.util.Iterator;
 
 public class FormPanel extends JPanel {
 
@@ -107,13 +104,6 @@ public class FormPanel extends JPanel {
 
         GridBagConstraints gc = new GridBagConstraints();
 
-        if (shapeCombo.getSelectedItem().equals("cube")) {
-        } else if (shapeCombo.getSelectedItem().equals("cuboid")) {
-        } else if (shapeCombo.getSelectedItem().equals("cylinder")) {
-        } else if (shapeCombo.getSelectedItem().equals("sphere")) {
-        } else if (shapeCombo.getSelectedItem().equals("cone")) {
-        }
-
         ///// Name row /////
         gc.weightx = 1;
         gc.weighty = 0.1;
@@ -131,6 +121,7 @@ public class FormPanel extends JPanel {
         gc.insets = new Insets(0, 0, 0, 0);
         gc.anchor = GridBagConstraints.LINE_START;
         add(nameField, gc);
+
         ///// Figure row /////
         gc.gridy++;
 
@@ -165,7 +156,6 @@ public class FormPanel extends JPanel {
 
 
         ///// Width row /////
-
         gc.gridy++;
 
         gc.weightx = 1;
@@ -182,7 +172,6 @@ public class FormPanel extends JPanel {
         add(widthField, gc);
 
         ///// Height row /////
-
         gc.gridy++;
 
         gc.weightx = 1;
@@ -199,7 +188,6 @@ public class FormPanel extends JPanel {
         add(heightField, gc);
 
         ///// Radius row /////
-
         gc.gridy++;
 
         gc.weightx = 1;
@@ -232,4 +220,3 @@ public class FormPanel extends JPanel {
         this.formListener = listener;
     }
 }
-

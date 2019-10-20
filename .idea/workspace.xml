@@ -278,7 +278,10 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571516747458" />
+=======
+>>>>>>> 33f8ec424ccd508a65d2914e6f042b15f5e54aae
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -309,12 +312,22 @@
       <updated>1569329894314</updated>
       <workItem from="1569329899350" duration="65000" />
       <workItem from="1569330014701" duration="667000" />
+<<<<<<< HEAD
       <workItem from="1569330972314" duration="4228000" />
       <workItem from="1570551725865" duration="22705000" />
       <workItem from="1570728483232" duration="11691000" />
       <workItem from="1571396931008" duration="15585000" />
       <workItem from="1571470023125" duration="1219000" />
       <workItem from="1571500511848" duration="8466000" />
+=======
+      <workItem from="1569330972314" duration="5633000" />
+      <workItem from="1569595576544" duration="1653000" />
+      <workItem from="1569597257707" duration="1364000" />
+      <workItem from="1570778988113" duration="1348000" />
+      <workItem from="1570784065312" duration="5827000" />
+      <workItem from="1570802268657" duration="82000" />
+      <workItem from="1571064282804" duration="4085000" />
+>>>>>>> 33f8ec424ccd508a65d2914e6f042b15f5e54aae
     </task>
     <servers />
   </component>
@@ -367,12 +380,16 @@
         <entry key="MAIN">
           <value>
             <State>
+<<<<<<< HEAD
               <option name="RECENTLY_FILTERED_USER_GROUPS">
                 <collection />
               </option>
               <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
                 <collection />
               </option>
+=======
+              <option name="COLUMN_ORDER" />
+>>>>>>> 33f8ec424ccd508a65d2914e6f042b15f5e54aae
             </State>
           </value>
         </entry>

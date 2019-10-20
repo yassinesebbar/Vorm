@@ -22,7 +22,10 @@ public class FigureFileFilter extends FileFilter {
             return false;
         }
 
-        return extension.equals("fig");
+        if(extension.equals("fig")) {
+            return true;
+        }
+        return false;
     }
 
     @Override
