@@ -19,68 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ea8b791-e00b-446a-9a9b-87d3e59c270c" name="Default Changelist" comment="Message">
-      <change afterPath="$PROJECT_DIR$/out/production/Vorm/Controller/Controller$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Vorm/Controller/iFigureTableListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Vorm/Model/Cone.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Vorm/Model/Cube.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Vorm/Model/Cuboid.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Vorm/Model/Utils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Vorm/Model/iFigure.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Vorm/view/FormPanel$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/Vorm/ControllerTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/Vorm/FigureTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Cone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Cube.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Cuboid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Cylinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Figure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Sphere.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/iFigure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/ControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/FigureTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="5ea8b791-e00b-446a-9a9b-87d3e59c270c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vorm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Vorm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Vorm/Controller/AppController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Vorm/META-INF/Vorm.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Vorm/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Vorm/Model/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Vorm/Model/Cylinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Vorm/Model/Cylinder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Vorm/Model/DataManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Vorm/Model/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Vorm/Model/Database.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Vorm/Model/DatabaseHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Vorm/Model/Figure.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Vorm/Model/Figure.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Vorm/Model/FigureTableModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Vorm/Model/FigureTableModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Vorm/Model/FileHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Vorm/Model/FormStorageDocument" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Vorm/Model/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Vorm/Model/Shape.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Vorm/Model/Sphere.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Vorm/Model/Sphere.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Vorm/Model/Square.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Vorm/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Vorm/controller/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Vorm/controller/FigureFileFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Vorm/controller/FigureFileFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Vorm/controller/FigureTableListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Vorm/view/FormEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Vorm/view/FormEvent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Vorm/view/FormPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Vorm/view/FormPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Vorm/view/FormPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Vorm/view/FormPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Vorm/view/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Vorm/view/MainFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Vorm/view/TablePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Vorm/view/TablePanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Vorm/view/TextPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Vorm/view/TextPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Vorm/view/Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/FigureFileFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/FigureFileFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/FigureTableListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/iFigureTableListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Figure.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/FigureTableModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/FigureTableModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Shape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/FormEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/FormEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/FormPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/FormPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MainFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/TablePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/TablePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/TextPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/TextPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Utils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +43,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="f5369e0b-bf94-4678-8ad9-d4630e3974bd" />
+  </component>
   <component name="ProjectId" id="1UTXfjT26gZOQHpBT0gCpNqFCmb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -121,7 +64,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Vorm - kopie" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -246,8 +189,23 @@
       <workItem from="1599067251998" duration="1953000" />
       <workItem from="1599069305439" duration="24087000" />
       <workItem from="1599302520802" duration="1033000" />
-      <workItem from="1599308739719" duration="1382000" />
+      <workItem from="1599308739719" duration="2378000" />
     </task>
+    <task id="LOCAL-00001" summary="Message">
+      <created>1599310266572</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599310266572</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add .gitignore">
+      <created>1599310439484</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599310439484</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,7 +227,8 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="Message" />
-    <option name="LAST_COMMIT_MESSAGE" value="Message" />
+    <MESSAGE value="Add .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add .gitignore" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599153117569">
@@ -296,15 +255,15 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1255" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1599247815625" />
-    <state x="448" y="61" width="1049" height="865" key="CommitChangelistDialog2" timestamp="1599310091975">
+    <state x="448" y="61" width="1049" height="865" key="CommitChangelistDialog2" timestamp="1599310438382">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="448" y="61" width="1049" height="865" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599310091975" />
-    <state x="-1180" y="273" key="FileChooserDialogImpl" timestamp="1599294165877">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="448" y="61" width="1049" height="865" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599310438382" />
+    <state x="740" y="273" key="FileChooserDialogImpl" timestamp="1599311124544">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1180" y="273" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1599294165877" />
-    <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599153140542" />
+    <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599311124544" />
     <state width="1876" height="182" key="GridCell.Tab.0.bottom" timestamp="1599302957206">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -345,14 +304,18 @@
     </state>
     <state width="1876" height="332" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1599302463939" />
     <state width="1876" height="332" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599154391493" />
-    <state x="301" y="86" key="SettingsEditor" timestamp="1599310124861">
+    <state x="540" y="253" key="IDE.errors.dialog" timestamp="1599310540377">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="301" y="86" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599310124861" />
-    <state x="552" y="251" key="Vcs.Push.Dialog.v2" timestamp="1599309355569">
+    <state x="540" y="253" key="IDE.errors.dialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599310540377" />
+    <state x="301" y="86" key="SettingsEditor" timestamp="1599311054728">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599309355569" />
+    <state x="301" y="86" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599311054728" />
+    <state x="552" y="251" key="Vcs.Push.Dialog.v2" timestamp="1599310750594">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599310750594" />
     <state x="777" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599309667347">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
