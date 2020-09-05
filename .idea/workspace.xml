@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ea8b791-e00b-446a-9a9b-87d3e59c270c" name="Default Changelist" comment="Add .gitignore">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5ea8b791-e00b-446a-9a9b-87d3e59c270c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -190,6 +188,7 @@
       <workItem from="1599069305439" duration="24087000" />
       <workItem from="1599302520802" duration="1033000" />
       <workItem from="1599308739719" duration="2378000" />
+      <workItem from="1599320364400" duration="595000" />
     </task>
     <task id="LOCAL-00001" summary="Message">
       <created>1599310266572</created>
@@ -205,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599310439484</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="workspace">
+      <created>1599320396825</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599320396825</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +235,8 @@
     </ignored-roots>
     <MESSAGE value="Message" />
     <MESSAGE value="Add .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add .gitignore" />
+    <MESSAGE value="workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace" />
   </component>
   <component name="WindowStateProjectService">
     <state x="564" y="150" key="#Deployment" timestamp="1599320315982">
@@ -264,35 +271,35 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1255" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1599247815625" />
-    <state x="448" y="61" width="1049" height="865" key="CommitChangelistDialog2" timestamp="1599320321804">
+    <state x="448" y="61" width="1049" height="865" key="CommitChangelistDialog2" timestamp="1599320395603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="448" y="61" width="1049" height="865" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599320321804" />
+    <state x="448" y="61" width="1049" height="865" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599320395603" />
     <state x="740" y="273" key="FileChooserDialogImpl" timestamp="1599317355745">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1180" y="273" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1599294165877" />
     <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599317355745" />
-    <state width="1876" height="182" key="GridCell.Tab.0.bottom" timestamp="1599320347374">
+    <state width="1876" height="182" key="GridCell.Tab.0.bottom" timestamp="1599320375390">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1876" height="182" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1599302957206" />
-    <state width="1876" height="182" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599320347374" />
-    <state width="1876" height="182" key="GridCell.Tab.0.center" timestamp="1599320347374">
+    <state width="1876" height="182" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599320375390" />
+    <state width="1876" height="182" key="GridCell.Tab.0.center" timestamp="1599320375389">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1876" height="182" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1599302957205" />
-    <state width="1876" height="182" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599320347374" />
-    <state width="1876" height="182" key="GridCell.Tab.0.left" timestamp="1599320347374">
+    <state width="1876" height="182" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599320375389" />
+    <state width="1876" height="182" key="GridCell.Tab.0.left" timestamp="1599320375389">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1876" height="182" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1599302957205" />
-    <state width="1876" height="182" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599320347374" />
-    <state width="1876" height="182" key="GridCell.Tab.0.right" timestamp="1599320347374">
+    <state width="1876" height="182" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599320375389" />
+    <state width="1876" height="182" key="GridCell.Tab.0.right" timestamp="1599320375389">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1876" height="182" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1599302957206" />
-    <state width="1876" height="182" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599320347374" />
+    <state width="1876" height="182" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599320375389" />
     <state width="1876" height="332" key="GridCell.Tab.1.bottom" timestamp="1599320347372">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
