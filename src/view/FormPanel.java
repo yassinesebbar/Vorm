@@ -1,6 +1,7 @@
 package view;
 
 import controller.FormListener;
+import model.Shape;
 
 import javax.swing.*;
 import javax.swing.border.Border;
@@ -8,6 +9,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
+import java.util.Objects;
 
 public class FormPanel extends JPanel {
 
@@ -43,18 +45,26 @@ public class FormPanel extends JPanel {
         radiusField = new JTextField(10);
         okBtn = new JButton("OK");
 
-        // Set up mnemonics
+        lengthLabel.setVisible(true);
+        lengthField.setVisible(true);
+        widthLabel.setVisible(false);
+        widthField.setVisible(false);
+        heightLabel.setVisible(false);
+        heightField.setVisible(false);
+        radiusLabel.setVisible(false);
+        radiusField.setVisible(false);
+
+        // Set up mnemonics (sneltoetsen)
         nameLabel.setDisplayedMnemonic(KeyEvent.VK_N);
         nameLabel.setLabelFor(nameField);
         okBtn.setMnemonic(KeyEvent.VK_O);
 
         // Set up combo box
         DefaultComboBoxModel shapeModel = new DefaultComboBoxModel();
-        shapeModel.addElement("cube");
-        shapeModel.addElement("cuboid");
-        shapeModel.addElement("cylinder");
-        shapeModel.addElement("sphere");
-        shapeModel.addElement("cone");
+//Haalt classes op uit enumlist
+        for (model.Shape i: model.Shape.values()){
+            shapeModel.addElement(i);
+        }
         shapeCombo.setModel(shapeModel);
         shapeCombo.setSelectedIndex(0);
 
@@ -64,9 +74,10 @@ public class FormPanel extends JPanel {
             double height = 0;
             double radius = 0;
 
+            //Haalt gegevens op uit invoervelden
             public void actionPerformed(ActionEvent e) {
                 String name = nameField.getText();
-                String shape = (String) shapeCombo.getSelectedItem();
+                Shape shape = (Shape) shapeCombo.getSelectedItem();
                 try {
                     length = Double.parseDouble(lengthField.getText());
                 } catch (NumberFormatException nfe) {
@@ -92,6 +103,63 @@ public class FormPanel extends JPanel {
 
                 if (formListener != null) {
                     formListener.formEventOccurred(ev);
+                }
+            }
+        });
+
+        //Laat invoervelden zien afhankelijk van de combobox
+        shapeCombo.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if (Objects.equals(shapeCombo.getSelectedItem(), Shape.cube)) {
+                    lengthLabel.setVisible(true);
+                    lengthField.setVisible(true);
+                    widthLabel.setVisible(false);
+                    widthField.setVisible(false);
+                    heightLabel.setVisible(false);
+                    heightField.setVisible(false);
+                    radiusLabel.setVisible(false);
+                    radiusField.setVisible(false);
+                }
+                if (Objects.equals(shapeCombo.getSelectedItem(), Shape.cuboid)) {
+                    lengthLabel.setVisible(true);
+                    lengthField.setVisible(true);
+                    widthLabel.setVisible(true);
+                    widthField.setVisible(true);
+                    heightLabel.setVisible(true);
+                    heightField.setVisible(true);
+                    radiusLabel.setVisible(false);
+                    radiusField.setVisible(false);
+                }
+                if (shapeCombo.getSelectedItem().equals(Shape.cylinder)) {
+                    lengthLabel.setVisible(false);
+                    lengthField.setVisible(false);
+                    widthLabel.setVisible(false);
+                    widthField.setVisible(false);
+                    heightLabel.setVisible(true);
+                    heightField.setVisible(true);
+                    radiusLabel.setVisible(true);
+                    radiusField.setVisible(true);
+                }
+                if (shapeCombo.getSelectedItem().equals(Shape.sphere)) {
+                    lengthLabel.setVisible(false);
+                    lengthField.setVisible(false);
+                    widthLabel.setVisible(false);
+                    widthField.setVisible(false);
+                    heightLabel.setVisible(false);
+                    heightField.setVisible(false);
+                    radiusLabel.setVisible(true);
+                    radiusField.setVisible(true);
+                }
+                if (Shape.cone.equals(shapeCombo.getSelectedItem())) {
+                    lengthLabel.setVisible(false);
+                    lengthField.setVisible(false);
+                    widthLabel.setVisible(false);
+                    widthField.setVisible(false);
+                    heightLabel.setVisible(true);
+                    heightField.setVisible(true);
+                    radiusLabel.setVisible(true);
+                    radiusField.setVisible(true);
                 }
             }
         });

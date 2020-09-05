@@ -1,19 +1,19 @@
 package view;
 
+import model.Shape;
+
 import java.util.EventObject;
 
 public class FormEvent extends EventObject {
-
     private String name;
-    private String shape;
+    private model.Shape shape;
     private double length;
     private double width;
     private double height;
     private double radius;
 
-    public FormEvent(Object source, String name, String shape, double length, double width, double height, double radius) {
+    public FormEvent(Object source, String name, model.Shape shape, double length, double width, double height, double radius) {
         super(source);
-
         this.name = name;
         this.shape = shape;
         this.length = length;
@@ -22,11 +22,14 @@ public class FormEvent extends EventObject {
         this.radius = radius;
     }
 
+
     public String getName() {
         return name;
     }
 
-    public String getShape() { return shape; }
+    public Shape getShape() {
+        return shape;
+    }
 
     public double getLength() {
         return length;
@@ -40,5 +43,7 @@ public class FormEvent extends EventObject {
         return height;
     }
 
-    public double getRadius() { return radius; }
+    public double getRadius() {
+        return radius;
+    }
 }

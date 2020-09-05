@@ -1,5 +1,5 @@
 package controller;
 
-public interface FigureTableListener {
+public interface iFigureTableListener {
     void rowDeleted(int row);
 }

@@ -6,7 +6,7 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.util.List;
 
-import controller.FigureTableListener;
+import controller.iFigureTableListener;
 import model.Figure;
 import model.FigureTableModel;
 
@@ -15,14 +15,14 @@ public class TablePanel extends JPanel {
     private JTable table;
     private FigureTableModel tableModel;
     private JPopupMenu popup;
-    private FigureTableListener figureTableListener;
+    private iFigureTableListener iFigureTableListener;
 
     public TablePanel() {
-
         tableModel = new FigureTableModel();
         table = new JTable(tableModel);
         popup = new JPopupMenu();
 
+//      Popup wanneer een rij verwijderd wordt
         JMenuItem removeItem = new JMenuItem("Delete row");
         popup.add(removeItem);
 
@@ -38,17 +38,17 @@ public class TablePanel extends JPanel {
             }
         });
 
+//      Kiest de juiste rij om te verwijderen
         removeItem.addActionListener(e -> {
             int row = table.getSelectedRow();
 
-            if (figureTableListener != null) {
-                figureTableListener.rowDeleted(row);
+            if (iFigureTableListener != null) {
+                iFigureTableListener.rowDeleted(row);
                 tableModel.fireTableRowsDeleted(row, row);
             }
         });
 
         setLayout(new BorderLayout());
-
         add(new JScrollPane(table), BorderLayout.CENTER);
     }
 
@@ -60,7 +60,7 @@ public class TablePanel extends JPanel {
         tableModel.fireTableDataChanged();
     }
 
-    public void setFigureTableListener(FigureTableListener listener) {
-        this.figureTableListener = listener;
+    public void setFigureTableListener(iFigureTableListener listener) {
+        this.iFigureTableListener = listener;
     }
 }

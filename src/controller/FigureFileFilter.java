@@ -1,10 +1,11 @@
 package controller;
 
-import view.Utils;
+import model.Utils;
 
 import javax.swing.filechooser.FileFilter;
 import java.io.File;
 
+//Controleert of de extensie klopt met .fig
 public class FigureFileFilter extends FileFilter {
 
     @Override

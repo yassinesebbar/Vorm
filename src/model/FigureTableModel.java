@@ -1,14 +1,10 @@
 package model;
 
-import model.Figure;
-
 import javax.swing.table.AbstractTableModel;
 import java.util.List;
 
 public class FigureTableModel extends AbstractTableModel {
-
     private List<Figure> db;
-
     private String[]
             colNames = {"ID", "Name", "Shape", "Volume"};
 

@@ -32,7 +32,6 @@ public class MainFrame extends JFrame {
         controller = new Controller();
 
         tablePanel.setData(controller.getFigures());
-
         tablePanel.setFigureTableListener(row -> controller.removeFigure(row));
 
         fileChooser = new JFileChooser();
@@ -83,16 +82,13 @@ public class MainFrame extends JFrame {
 
         showFormItem.addActionListener(e -> {
             JCheckBoxMenuItem menuItem = (JCheckBoxMenuItem) e.getSource();
-
             formPanel.setVisible(menuItem.isSelected());
         });
 
-
+        //Set Mnemonics
         fileMenu.setMnemonic(KeyEvent.VK_F);
         exitItem.setMnemonic(KeyEvent.VK_X);
-
         exitItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_X, ActionEvent.CTRL_MASK));
-
         importDataItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_I, ActionEvent.CTRL_MASK));
 
         importDataItem.addActionListener(e -> {
@@ -112,6 +108,7 @@ public class MainFrame extends JFrame {
                     controller.saveToFile(fileChooser.getSelectedFile());
                 } catch (IOException e1) {
                   JOptionPane.showMessageDialog(MainFrame.this, "Could not save data to file.", "Error", JOptionPane.ERROR_MESSAGE);
+                    System.out.println(e1);
                 }
 
             }

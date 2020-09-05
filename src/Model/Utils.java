@@ -1,7 +1,8 @@
-package view;
+package model;
 
 public class Utils {
 
+//    Zorgt er voor dat de extensie van de filenaam gesplits wordt.
     public static String getFileExtension(String name) {
 
         int pointIndex = name.lastIndexOf(".");
